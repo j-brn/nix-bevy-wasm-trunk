@@ -1,0 +1,19 @@
+[package]
+name = "nix-bevy-wasm-trunk"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+bevy = { version = "0.11.3" }
+wee_alloc = "0.4.5"
+
+[profile.release]
+panic = 'abort'
+lto = true
+
+[profile.dev]
+opt-level = 1
+
+[profile.dev.package."*"]
+opt-level = 3
+

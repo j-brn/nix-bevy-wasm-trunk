@@ -1,5 +1,8 @@
 # nix-bevy-wasm-trunk
 
+[![deploy](https://github.com/j-brn/nix-bevy-wasm-trunk/actions/workflows/deploy.yml/badge.svg)](https://github.com/j-brn/nix-bevy-wasm-trunk/actions/workflows/deploy.yml)
+[![test](https://github.com/j-brn/nix-bevy-wasm-trunk/actions/workflows/test.yml/badge.svg)](https://github.com/j-brn/nix-bevy-wasm-trunk/actions/workflows/test.yml)
+
 [Bevy](https://github.com/bevyengine/bevy) breakout example with nix build and github pages deployment
 
 ## Prerequisites

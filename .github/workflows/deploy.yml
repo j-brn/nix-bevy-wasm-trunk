@@ -27,7 +27,7 @@ jobs:
         uses: DeterminateSystems/nix-installer-action@v8
 
       - name: Cache Nix store
-        uses: DeterminateSystems/magic-nix-cache-action@v2
+        uses: DeterminateSystems/magic-nix-cache-action@v3
 
       - name: Build package
         run: nix build --accept-flake-config

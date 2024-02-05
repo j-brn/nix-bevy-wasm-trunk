@@ -17,7 +17,7 @@ jobs:
         uses: DeterminateSystems/nix-installer-action@v8
 
       - name: Cache Nix store
-        uses: DeterminateSystems/magic-nix-cache-action@v2
+        uses: DeterminateSystems/magic-nix-cache-action@v3
 
       - name: Check flake
         run: nix flake check --accept-flake-config
